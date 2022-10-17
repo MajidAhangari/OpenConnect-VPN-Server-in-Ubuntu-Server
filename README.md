@@ -20,5 +20,5 @@ sudo bash ocserv-install.sh
 
 in the nano /etc/ocserv/ocserv.conf  Set the number of devices a user is able to log in from at the same time. Default is 2. Set to zero for unlimited.
 
-max-same-clients = 2
+max-clients = 128
 
